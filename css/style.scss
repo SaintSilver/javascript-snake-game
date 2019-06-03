@@ -1,0 +1,121 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background: #43389F;
+    background: linear-gradient(to bottom right, #43389F 0%, #4ec6ca 100%);
+    overflow: hidden;
+}
+
+.wrap{
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.2);
+    width: 95%;
+}
+
+header{
+    padding: 20px 0;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 34px;
+    border-bottom: 1px solid #eee;
+    padding: 4px;
+}
+
+ul{
+    padding: 8px;
+    font-size: 25px;
+    li{
+        margin-top: 5px;
+        font-weight: 400;
+    }
+}
+
+.game-zone{
+    margin: 20px;
+    height: 600px;
+    text-align: center;
+
+    .article-howto{
+        margin: 15px 0;    
+    }
+}
+
+.sense{
+    width: 100%;
+    height: 150px;
+    background: #eee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+#gameCanvas{
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+}
+
+.clear{
+    clear: both;
+}
+
+.arrow-zone{
+    text-align: center;
+    background: #43389F;
+    background: linear-gradient(to bottom right, #43389F 0%, #4ec6ca 100%);
+    height: 300px;
+    position: relative;
+}
+
+
+.keys {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 8rem;
+    height: 16rem;
+  }
+  
+  .keys div {
+    font-size: 2.4rem;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
+    border-style: solid;
+    border-width: 0.4rem 0.45rem 0.6rem;
+    border-radius: 0.8rem;
+    border-color: #58b368 #acd972 #cecb0f #58b368;
+    background: #009975;
+    -moz-transition: all 80ms ease;
+    -o-transition: all 80ms ease;
+    -webkit-transition: all 80ms ease;
+    transition: all 80ms ease;
+    cursor: pointer;
+  }
+  
+  .keys .pressed {
+    border-bottom-width: 0.4rem;
+    text-shadow: 0 0 10px white;
+  }
+  
